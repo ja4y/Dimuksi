@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Digitaalinen Muotoilu</title>
+    <link rel="icon" type="image/x-icon" href="dimu_favicon.svg">
+    <link rel="stylesheet" href="bootstrap.css" />
+    <script src="jawaa.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"/>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+<!--tästä alakaa!-->
+  <div class="header">
+    <a href="https://www.metropolia.fi" target="_blank" class="metropolia-logo">
+    <img src="metropolia_s_valkoinen.png" alt="Metropolian logo" class="d-inline-block align-text-top" style="height: 40px;">
+  </a>
+    <h1>DIGITAALINEN MUOTOILU</h1>
+  </div>
+  <body>
+    <div class="vertical-line right"></div>
+    <div class="vertical-line left"></div>
+     <!-- Navi -->
+     <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container-fluid">
+         <!-- Mukautettu hampurilaisikoni -->
+         <div 
+             class="navbar-toggler"
+             onclick="myFunction(this)"
+             data-bs-toggle="collapse" 
+             data-bs-target="#navbarNav" 
+             aria-controls="navbarNav" 
+             aria-expanded="false" 
+             aria-label="Toggle navigation">
+             <div class="bar1"></div>
+             <div class="bar2"></div>
+             <div class="bar3"></div>
+         </div>
+         <!-- Navigaatiolinkit -->
+         <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+               <li class="nav-item"><a class="nav-link" href="#mita">MITÄ</a></li>
+               <li class="nav-item"><a class="nav-link" href="#millaista">MILLAISTA</a></li>
+               <li class="nav-item"><a class="nav-link" href="#missa">MISSÄ</a></li>
+               <li class="nav-item"><a class="nav-link" href="#miten">MITEN</a></li>
+               <li class="nav-item"><a class="nav-link" href="#ukk">UKK</a></li>
+            </ul>
+         </div>
+      </div>
+   </nav>
+  <body class="light-mode">
+      <!-- hero -->
+    <section id="hero-video" class="hero">
+     
+
+       <h1 style="transform: rotate(90deg); transform-origin: left; position: absolute; font-size: 100px; font-weight: bold;">DIMUKSI?</h1>
+       
+     <div>
+     
+      <video autoplay loop muted playsinline>
+        
+        <source src="viveo.mp4" type="video/mp4" />
+      </video>
+       </div>
+       <a href="#miten" class="btn btn-dark btn-lg custom-btn">NÄIN HAET</a>
+    </section>
+    <div class="horizontal-line"></div>
+  </div>
+</section>
+<section>
+  <div class="container">
+  <p>
+    <b>Digitaalisen muotoilun ala tarjoaa laajat ja monipuoliset uramahdollisuudet. Opinnot kehittävät luovia ja teknisiä taitoja, joita voidaan soveltaa monilla aloilla ja useissa tehtävissä. Opiskelu on käytännönläheistä ja alan osaajille on kasvava kysyntä.</b></p>
+    </div>
+</section>
+<div class="horizontal-line"></div>
+
+      <!-- Mitä -->
+      <section id="mita" class="py-5 bg-light" data-aos="fade-down-right">
+        <div class="container">
+          <div class="content-container">
+            <!-- Vasemman palstan sisältö: Teksti -->
+            <div class="text-content">
+              <h2 class="section-title left">MITÄ DIGITAALINEN MUOTOILU ON?</h2>
+      
+              <!-- Ikonit ja tekstit -->
+              <div class="icon-row">
+                <div class="icon-item">
+                  <img src="icon1.svg" alt="Ikoni 1" class="icon">
+                  <p class="icon-text">Luovaa suunnittelua</p>
+                </div>
+                <div class="icon-item">
+                  <img src="icon2.svg" alt="Ikoni 2" class="icon">
+                  <p class="icon-text">Digitaalisia palveluita</p>
+                </div>
+                <div class="icon-item">
+                  <img src="icon3.svg" alt="Ikoni 3" class="icon">
+                  <p class="icon-text">Teknistä osaamista</p>
+                </div>
+              </div>
+      
+              <p>
+                <b>Muotoile oma urasi </b> <br>
+                Digitaalisen muotoilun avulla voit muokata urasi itsesi näköiseksi.  
+                Alassa yhdistyy luovuus ja teknologia, kun pyritään luomaan käyttäjäystävällisiä, toimivia ja visuaalisesti houkuttelevia ratkaisuja. Vaikka koulutus painottuu digitaalisiin palveluihin, opitut taidot ovat laajasti sovellettavissa eri suunnittelutehtäviin.
+                <br> <br>
+                Digitaalisen muotoilijan rooli on monipuolinen ja kehittyy jatkuvasti, joten mahdollisuuksia löytyy eri aloilta, kuten verkkosivujen, sovellusten, mainonnan tai vaikka palvelumuotoilun parista.
+              </p>
+            </div>
+      
+            <!-- Oikean palstan sisältö: Yksittäinen kuva -->
+            <div class="image-content">
+              <img src="Tero.jpg" alt="Kuva">
+              <div class="audio-player">
+                <audio id="audio" controls>
+                <source src="tero ääni.mp3" type="audio/mpeg" />
+            </audio>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="horizontal-line"></div>
+      <section>
+
+        <header class="header">
+            <h1>Työpaikkasi voi olla esimerkiksi</h1>
+        </header>
+
+  <swiper-container class="mySwiper" navigation="true">
+    <swiper-slide><h2>Julkishallinnossa tai kolmannella sektorilla</h2>
+      <p>Palvelumuotoilijana, viestinnällisissä tehtävissä, digitalisaation asiantuntijana.</p></swiper-slide>
+    <swiper-slide><h2>Mainostoimistossa tai mediatalossa</h2>
+      <p>Visuaalisena suunnittelijana, käyttöliittymä suunnittelijana, UX-copywriterina, front-end-developerina.</p></swiper-slide>
+    <swiper-slide><h2>Yksityisyrittäjänä</h2>
+      <p>Kouluttajana, laaja-alaisesti digitaalisen suunnittelun tehtävissä.
+</p></swiper-slide>
+    <swiper-slide><h2>IT-talossa</h2>
+      <p>teknisenä asiantuntijana, konsulttina.</p>
+      </swiper-slide>
+
+  </swiper-container>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+</section>
+
+<div class="horizontal-line"></div>
+
+    <section id="millaista" class="py-5 bg-light" data-aos="fade-down-left">
+      <div class="container">
+        <div class="content-container">
+          <!-- Oikean palstan sisältö: Tekstit ja ikonit -->
+          <div class="text-content">
+            <h2 class="section-title left">MILLAISTA OPISKELU ON?</h2>
+            <p>
+              Digitaalisen muotoilun opiskelu Metropolian Arabian kampuksella on käytännönläheistä ja 
+              monipuolista. Opetus järjestetään suomeksi lähiopetuksena, ja siinä yhdistyvät luovuus, 
+              tekniset taidot ja yhteistyö. Kampuksella vallitsee innostava ja yhteisöllinen ilmapiiri, joka 
+              tukee oppimista ja verkostoitumista.
+            </p>
+            <!-- Ikonit ja tekstit -->
+            <div class="icon-row">
+              <div class="icon-item">
+                <img src="icon4.svg" alt="Ikoni 4" class="icon">
+                <p class="icon-text">Luovuus</p>
+              </div>
+              <div class="icon-item">
+                <img src="icon5.svg" alt="Ikoni 5" class="icon">
+                <p class="icon-text">Teknologia</p>
+              </div>
+              <div class="icon-item">
+                <img src="icon6.svg" alt="Ikoni 6" class="icon">
+                <p class="icon-text">Innovaatiot</p>
+              </div>
+            </div>
+    
+            <p>
+              <b>Käytännön harjoittelua ja luovaa suunnittelua</b> <br>
+              Opiskelussa yhdistyvät luova ongelmanratkaisu, visuaalinen suunnittelu ja tekninen toteutus. Opit laajasti alan ajankohtaisimmat aiheet, ja pääset työskentelemään aitojen asiakasprojektien parissa. Koulutuksessa kehittyy erityisesti ihmiskeskeinen suunnittelu, käyttäjäymmärrys sekä verkkoteknologiat.
+            </p>
+    
+            <!-- Lue lisää -laatikko -->
+            <div class="read-more-box">
+              <a href="https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/digitaalinen-muotoilu" target="_blank" class="read-more-link">
+                Lue lisää opiskelusta Metropoliassa
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="horizontal-line"></div>
+      <!-- Flip Card Carousel -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="alumnit.jpg" alt="Alumni 1" class="alumni-img">
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Minna alumni.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="alumnit-2.jpg" alt="Alumni 2" class="alumni-img">
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Anna, 3. vuoden dimu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="alumnit-3.jpg" alt="Alumni 3" class="alumni-img">
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Joona alumni</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+</div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script>
+const swiper = new Swiper('.swiper-container', {
+slidesPerView: 1,
+spaceBetween: 20,
+loop: true,
+pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+},
+breakpoints: {
+    768: {
+        slidesPerView: 2,
+    },
+    1024: {
+        slidesPerView: 3,
+    },
+},
+});
+</script>
+    </section>
+    <div class="horizontal-line"></div>
+
+ <!-- missä -->
+ <section id="missa" class="py-5 bg-light" data-aos="fade-down-right">
+  <div class="container">
+    <div class="content-container">
+      <!-- Vasemman palstan sisältö: Teksti -->
+      <div class="text-content">
+        <h2 class="section-title left">MISSÄ OPISKELLAAN?</h2>
+
+        <!-- Ikonit ja tekstit -->
+        <div class="icon-row">
+          <div class="icon-item">
+            <img src="icon7.svg" alt="Ikoni 1" class="icon">
+            <p class="icon-text">6 km Helsingin keskustasta</p>
+          </div>
+          <div class="icon-item">
+            <img src="icon9.svg" alt="Ikoni 2" class="icon">
+            <p class="icon-text">Hyvät liikenneyhteydet</p>
+          </div>
+          <div class="icon-item">
+            <img src="icon8.svg" alt="Ikoni 3" class="icon">
+            <p class="icon-text">Moderni, historiarikas kampus</p>
+          </div>
+        </div>
+
+        <p>
+          <b>Luovien tekijöiden kulttuurikampus Arabiassa </b> <br>
+          Metropolian Arabian kampus Helsingin Arabianrannassa tuo yhteen eri kulttuurialojen tekijät. Kampus on 1940-luvulla rakennetun vanhan Arabian posliinitehtaan kunnostetuissa tiloissa. 
+          <br> <br>
+          Arabian kampukselle pääsee helposti useilla eri bussiyhteyksillä sekä raitiolinjoilla 6 ja 8. Kampuksen ympärillä on reilusti ilmaista pysäköintitilaa. 
+        </p>
+        
+      </div>
+      <!-- Oikean palstan sisältö: Yksittäinen kuva -->
+      <div class="col-md-6">
+        <swiper-container class="mySwiperKampus" navigation="true">
+          <swiper-slide><img src="yleinentila4.jpg" alt="kampus"></swiper-slide>
+          <swiper-slide><img src="yleinentila2.jpg" alt="kampus"></swiper-slide>
+          <swiper-slide><img src="yleinentila3.jpg" alt="kampus"></swiper-slide>
+          <swiper-slide><img src="yleinentila1.jpg" alt="kampus"></swiper-slide>
+        </swiper-container>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    </div>
+  </div>
+</section>
+ <!-- miten -->
+ <div class="horizontal-line"></div>
+ <section id="miten" class="py-5 bg-light" data-aos="fade-down-left">
+  <div class="container">
+    <div class="content-container">
+      <div class="image-content">
+        <img src="Mari.jpg" alt="Opettajan kuva ja ääni viesti terveiset">
+     
+        <div class="audio-player">
+          <audio id="audio" controls>
+          <source src="marin ääni.mp3" type="audio/mpeg" />
+      </audio>
+      </div>
+    </div>
+      <!-- Oikean palstan sisältö: Tekstit ja ikonit -->
+      <div class="text-content">
+        <h2 class="section-title left">MITEN VOI HAKEA?</h2>
+        <p>
+          Digitaalisen muotoilun tutkinto-ohjelmaan voi hakea korkeakoulujen kevään toisessa yhteishaussa. Hakuaika alkaa 11.3.2025 klo 8.00 ja päättyy 25.3.2025 klo 15.00.
+
+<B>Checklist</B>
+<BR></BR>
+1. Käy tsekkaamassa ennakkotehtävät Metropolian sivuilta. Tehtävät julkaistaan xx.xx 
+<BR></BR>
+2. Aloita ennakkotehtävien tekeminen mahdollisimman aikaisin.
+<BR></BR>
+3. Täytä yhteishaun lomake 11.3.-25.3.2025 aikana Opintopolussa.
+<BR></BR>
+4. Liitä ennakkotehtävät Opintopolun yhteishaun hakulomakkeeseen ja muista lähettää hakemus ennen 25.3.2025 klo 15:00.
+      </div>
+    </div>
+  </div>
+</section>
+<div class="horizontal-line"></div>
+    <!-- Miten lobbuu-->
+
+    <!-- FAQsss starttaa-->
+    <section id="ukk" class="py-5 bg-light" data-aos="fade-down-right">
+      <div class="container">
+        <div class="text-content">
+        <h2 class="section-title left">USEIN KYSYTTYJÄ KYSYMYKSIÄ</h2>
+       
+      </div>
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Mitä digitaalinen muotoilu on?</a>
+        </h3>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">Digitaalinen muotoilu kattaa kaiken visuaalisen viestinnän ja sisällön, 
+            joka toimii digitaalisilla alustoilla ja välittää tietoa, tuotteita tai palveluita. 
+            Digitaalisena muotoilijana suunnittelet käyttäjälähtöisiä ratkaisuja, kuten verkkosivustoja, 
+            sosiaalisen median sisältöjä, vuorovaikutteisia toimintoja tai palvelumuotoilun avulla luotuja kokonaisvaltaisia käyttäjäkokemuksia. 
+            Vaikka koulutus painottuu digitaalisiin palveluihin, opitut taidot ovat laajasti sovellettavissa eri suunnittelutehtäviin.</div>
+      </div>
+    
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Onko digitaalinen muotoilu pelkkää teknistä osaamista?</a>
+        </h3>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">Ei ole. Digitaalinen muotoilu yhdistää luovuuden ja teknologian. 
+            Vaikka opintojen aikana opitaan koodauksen perusteet, uralla eteneminen ei vaadi koodaustaitoja. 
+            Digitaalisena muotoilijana voit rakentaa urasi omien vahvuuksiesi ja kiinnostustesi pohjalta.</div>
+      </div>
+    
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Milloin ennakkotehtävät julkaistaan?</a>
+        </h3>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body">ennakkotehtävät julkaistaan Metropolian sivuilla xx.xx</div>
+      </div>
+    
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Millaisia ovat aiempien vuosien ennakkotehtävät?</a>
+            </h3>
+          </div>
+          <div id="collapse4" class="panel-collapse collapse">
+            <div class="panel-body">Ennakkotehtävä on usein kirjoitustehtävä jostakin digitaaliseen muotoiluun liittyvästä, 
+                ajankohtaisesta aiheesta. Aiempien vuosien ennakkotehtäviä ei ole saatavilla.</div>
+          </div>
+        </div>
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Tarvitseeko olla kokemusta alalta?</a>
+          </h3>
+        </div>
+        <div id="collapse5" class="panel-collapse collapse">
+          <div class="panel-body">Ei tarvitse. Jokaisella vuosikurssilla on opiskelijoita,
+            joilla on aiempaa kokemusta alalta, mutta myös niitä, jotka lähtevät liikkeelle ilman aikaisempaa osaamista.</div>
+        </div>
+      </div>
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Tarvitseeko pääsykokeissa koodata?</a>
+          </h3>
+        </div>
+        <div id="collapse6" class="panel-collapse collapse">
+          <div class="panel-body">Usein pääsykokeissa on jokin koodaustehtävä. Pisteitä saa jo yrittämisestä. </div>
+        </div>
+      </div>
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">Opetetaanko koulussa työkalujen käyttöä?</a>
+          </h3>
+        </div>
+        <div id="collapse7" class="panel-collapse collapse">
+          <div class="panel-body">Opinnoissa ei keskitytä tiettyjen suunnittelutyökalujen yksityiskohtaiseen opetukseen, 
+            koska ei haluta suosia yksittäisiä työkaluja, eikä voida ennakoida, kuinka kauan ne pysyvät ajankohtaisina. 
+            Työkalut tulevat kuitenkin tutuksi projektien myötä. </div>
+        </div>
+      </div>
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">Mitä pääsykokeissa kysytään?</a>
+          </h3>
+        </div>
+        <div id="collapse8" class="panel-collapse collapse">
+          <div class="panel-body">Pääsykokeet koostuvat useammasta eri tehtävästä. 
+            Aikaisempien vuosien pääsykokeissa on ollut kirjoittamista, suunnittelua, 
+            koodausta sekä lyhyt haastattelu ja esitelmä. </div>
+        </div>
+      </div>
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">Miten pääsykokeisiin voi valmistautua?</a>
+          </h3>
+        </div>
+        <div id="collapse9" class="panel-collapse collapse">
+          <div class="panel-body">Pääsykokeisiin voit valmistautua hakemalla tietoa alasta, 
+            tutustumalla HTML- ja CSS-kieliin sekä lukemalla ajankohtaisia alaan liittyviä artikkeleita.</div>
+        </div>
+      </div>
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">Onko digitaalisen muotoilun opiskelijaksi vaikea päästä?</a>
+          </h3>
+        </div>
+        <div id="collapse10" class="panel-collapse collapse">
+          <div class="panel-body">Aloituspaikkoja on 20, joista 16 ensikertalaisille. Viime vuonna hakijoita oli n. 200.</div>
+        </div>
+      </div>
+      </div>
+  </div> 
+</div>
+      </div>
+    </div>
+   
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+    </section>
+
+    <!-- FAQsss lobbuu-->
+
+    <!-- Footeriii alkaa -->
+
+    <footer class="text-white text-center py-1">
+        <div class="profiles">
+          <p>SIVUN TEKIVÄT ENSIMMÄISEN VUODEN OPISKELIJAT</p>
+          <!-- Profiili QVAT! -->
+          <div class="profile">
+            <img
+              src="emma - vol 2 - 2.jpg"
+              alt="Emma"
+            />
+            <p>Emma</p>
+          </div>
+          <div class="profile">
+            <img
+              src="oskari.jpg"
+              alt="Oskari"
+            />
+            <p>Oskari</p>
+          </div>
+          <div class="profile">
+            <img
+              src="eljas - vol 2 - 1.jpg"
+              alt="Eljas"
+            />
+            <p>Eljas</p>
+          </div>
+          <div class="profile">
+            <img
+              src="jay.jpg"
+              alt="Jayson"
+            />
+            <p>Jayson</p>
+          </div>
+        </div>
+       
+        <!-- Sosiaalisen median ikonit -->
+        <div class="social-media">
+         
+          <a href="https://www.tiktok.com/@digimuotoilu.metropolia"><i class="fab fa-tiktok"></i></a>
+          <a href="https://www.instagram.com/digimuotoilu.metropolia/"><i class="fab fa-instagram"></i></a>
+          <p>
+            <a href="https://www.metropolia.fi" target="_blank" class="footer-logo">
+            <img src="metropolia_s_valkoinen.png" alt="Footer Logo" style="height: 40px; margin-bottom: 10px;">
+          </a>
+        <p>
+          &copy; 2024 DIMU.         Metropolia ammattikorkeakoulu,         Arabian kampus,         Hämeentie 135 D, 00560 Helsinki
+        </p>
+      </div>
+      </footer>
+<!-- footeri lobu -->
+
+    <!-- Dark/Light Mode-->
+    <button onclick="toggleMode()" id="modeSwitch" title="Vaihda tilaa">
+      ☀️/🌙
+    </button>
+
+    <!-- Back to Top Button -->
+    <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+<!-- JS alkaa tästä -->
+
+
+    <script>
+      // Dark/Light Mode Toggle
+      function toggleMode() {
+        const body = document.body;
+        body.classList.toggle("dark-mode");
+        body.classList.toggle("light-mode");
+        const modeSwitch = document.getElementById("modeSwitch");
+        if (body.classList.contains("dark-mode")) {
+          modeSwitch.textContent = "🌙"; // Dark mode icon
+        } else {
+          modeSwitch.textContent = "☀️"; // Light mode icon
+        }
+      }
+
+      // Scroll to Top Button Visibility
+      window.onscroll = function () {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          document.getElementById("topBtn").style.display = "block";
+        } else {
+          document.getElementById("topBtn").style.display = "none";
+        }
+      };
+
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+   <!-- Bootstrap JS -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>AOS.init();</script>
+   <script>
+    function myFunction(x) {
+      x.classList.toggle("change");
+    }
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+

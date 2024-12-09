@@ -1,0 +1,667 @@
+html {
+  overflow-x: hidden;
+}
+
+b {
+  font-size: larger;
+}
+
+.header {
+  background-color: #000000;
+  padding: 1%;
+  color: #faf9f5;
+}
+
+.header img {
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.metropolia-logo img,
+.footer-logo {
+  display: inline-block;
+  transition: filter 0.3s ease-in-out;
+}
+
+.metropolia-logo img,
+.footer-logo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.metropolia-logo:hover img,
+.footer-logo:hover img {
+  filter: brightness(0) saturate(100%) invert(33%) sepia(83%) saturate(2884%)
+    hue-rotate(-17deg) brightness(102%) contrast(102%);
+}
+
+/* täst alkaa uus navi */
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #000000;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar a {
+  color: #faf9f5;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px 0;
+  flex: 1;
+}
+
+.navbar a:hover {
+  background-color: #fff200;
+  color: #000000;
+}
+
+/* hamppari alakaa */
+.navbar-toggler {
+  margin-left: auto;
+  background: none;
+  border: none;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #fff200;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+/* hamppari lobu */
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+}
+.mySwiper {
+  background-color: #000000;
+  color: #fff;
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.mySwiper swiper-slide h2,
+.mySwiper swiper-slide p {
+  padding-left: 200px; /* Siirtää vain tekstin */
+}
+
+.mySwiper ::part(slide) h2,
+.mySwiper ::part(slide) p {
+  padding-left: 200px; /* Varmistetaan, että kaikki tekstielementit siirtyvät */
+}
+
+.mySwiper swiper-slide h2 {
+  font-size: 32px; /* Fontin koko */
+  color: #fff200; /* Fontin väri */
+  font-weight: bold; /* Halutessasi painotettu teksti */
+  margin: 0; /* Poista mahdolliset marginaalit */
+}
+
+.mySwiper swiper-slide p {
+  font-size: 22px;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .mySwiper swiper-slide h2 {
+    padding-left: 40px;
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mySwiper swiper-slide p {
+    padding-left: 40px;
+    font-size: 18px;
+  }
+}
+.header {
+  width: 100%; /* Koko näytön levyinen */
+  background-color: black; /* Musta tausta */
+  color: rgb(255, 255, 255); /* Teksti keltaiseksi */
+  text-align: left; /* Keskitetään teksti vaakasuunnassa */
+  padding: 0; /* Ylä- ja alatyhjä tila */
+  padding-left: 200px;
+  padding-bottom: -5px;
+  padding-top: 30px;
+}
+
+.header h1 {
+  font-size: 32px; /* Tekstin koko */
+  margin: 0; /* Poistet an ylimääräiset marginaalit */
+}
+
+/* Media query, joka poistaa paddingin mobiililaitteilla */
+@media (max-width: 768px) {
+  .header {
+    padding-left: 20px; /* Poistaa vasemman paddingin */
+    padding-top: 10px; /* Poistaa yläpaddingin tai asettaa pienemmäksi */
+    padding-bottom: 10px; /* Poistaa alaspäin menevän paddingin */
+  }
+}
+
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+kampusKARUSELLIN CSS /* Galleria */
+.mySwiperKampus {
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+}
+
+.mySwiperKampus img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .mySwiperKampus {
+    padding-top: 20px;
+  }
+}
+
+.text-content {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.light-mode {
+  background-color: #faf9f5;
+  color: #000000;
+}
+
+.dark-mode {
+  background-color: #000000;
+  color: #faf9f5;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #faf9f5;
+  background-color: #faf9f5;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  width: 100%;
+}
+
+/* Heroooo */
+
+.hero p {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 15% auto;
+  max-width: 90%;
+}
+h2 {
+  font-size: 3em;
+  margin-left: 5%;
+  font-weight: bold;
+}
+
+/* Hero */
+#hero-video {
+  position: relative;
+  width: 100%; /* Hero-osan leveys */
+  height: 650px; /* Hero-osan korkeus */
+ 
+}
+
+
+#hero-video video {
+  width: 100%; /* Video skaalautuu automaattisesti oikeaan mittasuhteeseen */
+  height: 100%; /* Sovitetaan korkeuteen */
+  object-fit: cover; /* Täyttää alueen ja rajaa tarpeen mukaan */
+  position: absolute;
+  }
+
+
+#hero-video .custom-btn {
+  position: relative;
+  left: -1200px;
+  padding: 10px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 500px;
+}
+
+/* Flip-card-perusrakenne */
+.flip-card {
+  background-color: transparent;
+  perspective: 1000px;
+  width: 250px;
+  height: 300px;
+  margin: 10px auto;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border: 1px solid #faf9f5;
+  border-radius: 10px;
+}
+
+.flip-card-front {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #faf9f5;
+}
+
+.flip-card-back {
+  background: #fff200;
+  color: #000000;
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.alumni-img {
+  width: 80%;
+  border-radius: 10;
+}
+
+.swiper-container {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* tähä päättyy tekstit */
+.read-more-box {
+  padding: 15px;
+  margin-top: 35px;
+  text-align: center;
+  border-radius: 0px;
+}
+
+/* Linkin tyyli */
+.read-more-link {
+  color: #fff200; /* Keltainen teksti */
+  text-decoration: underline; /* Alleviivaus */
+  font-weight: bold; /* Lihavoitu teksti */
+  font-size: 1.1em; /* Hieman isompi fontti */
+  transition: color 0.3s; /* Hover-animaatio */
+}
+
+/* Dark Mode */
+body.dark-mode .icon-text {
+  color: #faf9f5; /* Tekstin väri */
+  background-color: #000000; /* Taustan väri */
+}
+
+body.dark-mode .horizontal-line {
+  border-color: #faf9f5; /* Vaakaelementin reunaviiva valkoiseksi */
+}
+
+/* body.dark-mode .vertical-line {
+  background-color: #faf9f5; /* Pystyelementin tausta valkoiseksi */} */
+
+body.dark-mode .navbar-dark {
+  background-color: #000000;
+}
+
+body.dark-mode .bg-light {
+  background-color: #000000 !important;
+}
+
+body.dark-mode .bg-dark {
+  background-color: #000000 !important;
+}
+
+/* Light Mode */
+body.light-mode {
+  background-color: #faf9f5;
+  color: #000000;
+}
+
+body.light-mode .navbar-dark {
+  background-color: #faf9f5;
+}
+
+/* Section Styles */
+
+.icon-row {
+  display: flex; /* Asettaa ikonit riviin */
+  justify-content: flex-start; /* Kohdistaa ikonit vasemmalle */
+  gap: 40px; /* Väli ikonien välillä */
+  margin: 35px 0; /* Väli ikonirivin ja muun sisällön välillä */
+}
+
+.icon-item {
+  text-align: center; /* Kohdistaa kuvan ja tekstin keskelle */
+}
+
+.icon {
+  width: 100px; /* Kuvien kiinteä leveys */
+  height: 100px; /* Kuvien kiinteä korkeus */
+  object-fit: contain; /* Pitää kuvan mittasuhteet kunnossa */
+  margin-bottom: 5px; /* Väli kuvan ja tekstin välillä */
+}
+
+.icon-text {
+  font-size: 14px; /* Tekstin koko */
+  color: #000000; /* Tekstin väri */
+}
+
+.content-container {
+  display: flex;
+  flex-wrap: wrap; /* Mahdollistaa rivittymisen pienillä näytöillä */
+  gap: 20px; /* Lisää väliä palstojen välille */
+  align-items: flex-start; /* Kohdistaa sisällön pystysuunnassa vasemmalle */
+}
+
+.text-content {
+  flex: 1; /* Teksti venyy tarvittaessa */
+  max-width: 50%; /* Rajoittaa leveyden 50% kontista */
+}
+
+.image-content {
+  flex: 1; /* Kuvasisältö venyy tarvittaessa */
+  max-width: 50%; /* Rajoittaa leveyden 50% kontista */
+}
+
+/* Responsiivisuus: Palstat pinotaan pienillä näytöillä */
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column; /* Muuttaa asettelun pystysuuntaiseksi */
+  }
+
+  .text-content,
+  .image-content {
+    max-width: 100%; /* Palstat ottavat koko leveyden */
+  }
+}
+
+/* Kuvien maksimikoko */
+.image-content img {
+  max-width: 80%;
+  height: auto; /* Säilyttää kuvasuhteen */
+}
+.content-container {
+  display: flex;
+  justify-content: space-between; /* tai flex-end jos haluat tekstin oikealle */
+}
+.text-content {
+  margin-left: auto; /* Työntää tekstin oikealle */
+}
+.section-title {
+  font-size: 50px;
+  font-weight: bold;
+  transition: transform 0.5s ease-in-out, color 0.5s;
+  cursor: pointer;
+}
+
+.section-title:hover {
+  color: #fff200;
+  transform: scale(1.1);
+}
+
+/* Left and Right Text Alignment */
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+/* Dark/Light Mode Button */
+#modeSwitch {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #fff200;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 10px;
+  opacity: 0.8;
+}
+
+#modeSwitch:hover {
+  background-color: #ff5000;
+}
+
+/* Scroll to Top Button */
+#topBtn {
+  border: none;
+  opacity: 0.8;
+  position: fixed; /* Kiinnittää nappulan ikkunaan */
+  bottom: 20px; /* Etäisyys alareunasta */
+  right: 20px; /* Etäisyys oikeasta reunasta */
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #fff200;
+}
+
+#topBtn:hover {
+  background-color: #ff5000;
+}
+
+/* Custom Animations for Titles */
+.animated-title {
+  animation: slideIn 1s ease-in-out;
+}
+
+a {
+  color: #ff5000;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  background-color: #000;
+  color: #faf9f5;
+}
+
+/* kuvakehykset */
+.profile {
+  display: inline-block;
+  margin: 25px;
+  text-align: center;
+}
+
+.profile img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  transition: transform 0.5s;
+}
+
+.profile img:hover {
+  transform: scale(1.1);
+}
+
+/* Some ikonit */
+.social-media a {
+  margin: 10px;
+  color: #faf9f5;
+  font-size: 40px;
+  text-decoration: none;
+  transition: color 0.5s, transform 0.5s;
+}
+
+.social-media a:hover {
+  color: #ff5000;
+  transform: scale(1.2);
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.btn:hover {
+  color: #faf9f5;
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+/*responsiivisuus!*/
+
+@media screen and (max-width: 830px) {
+  .navbar {
+    position: sticky;
+    flex-direction: column; /* Navigaatio pystysuoraan */
+    align-items: center; /* Keskittää linkit */
+  }
+  /* .hero p { 
+    margin: 10% 5%;
+    font-size: 16px;
+  } */
+  .profile img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 16px; /* Pienemmät fontit kapeille näytöille */
+  }
+
+  #topBtn,
+  #modeSwitch {
+    padding: 8px;
+    font-size: 10px;
+  }
+}
+
+.btn-dark {
+  --bs-btn-color: #000000;
+  --bs-btn-bg: #fff200;
+  --bs-btn-border-color: #faf9f5;
+
+  --bs-btn-hover-bg: #ff5000;
+  margin-top: 25%;
+  margin-left: 90%;
+}
+
+.dark-mode .panel-body {
+  color: #000000;
+}
+
+.horizontal-line {
+  width: 100%; /* Viiva vie koko tilan */
+  border-top: 1px solid #000000; /* Yksinkertainen musta vaakaviiva */
+  margin: 10px 0; /* Lisätään vähän tilaa viivan ylä- ja alapuolelle */
+}
+
+.audio-player {
+  width: 400px;
+}
+
+/* Yleinen kontainerityyli */
+.container {
+  position: relative;
+}
+
+/* Pystysuorat viivat */
+.vertical-line {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background-color: #000000;
+  z-index: 10;
+}
+
+.vertical-line.left {
+  left: 155px;
+}
+
+.vertical-line.right {
+  right: 155px;
+}
+
+/* Poista viivat mobiilissa */
+@media (max-width: 768px) {
+  .vertical-line {
+    display: none;
+  }
+}
+
+h1 {
+  margin-left: 75px;
+  color: #faf9f5;
+  z-index: 10;
+}
+
+
